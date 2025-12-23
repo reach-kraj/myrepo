@@ -1,0 +1,47 @@
+{
+	"info": {
+		"_postman_id": "260a95b0-dc05-4059-b99a-1c1d241e9836",
+		"name": "Saga Pattern",
+		"description": "This Saga project implements a simplified **choreography-based saga pattern** using Spring Boot, where services coordinate via an in-memory event bus. When an order is placed via a REST API, it triggers sequential steps: payment processing and inventory reservation. If any step fails (e.g., payment failure), compensating actions like order cancellation are automatically executed and logged.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "46189975"
+	},
+	"item": [
+		{
+			"name": "Payment success",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Payment failed.",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"orderId\": \"ORD001\",\n  \"paymentSuccess\": false\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/orders",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"orders"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

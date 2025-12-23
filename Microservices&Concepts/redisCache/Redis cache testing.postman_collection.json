@@ -1,0 +1,56 @@
+{
+	"info": {
+		"_postman_id": "67a9efa8-9251-4b46-a1b3-8453f56df689",
+		"name": "Redis cache testing",
+		"description": "This demo provides a detailed clarity of how Redis cache works. Try both GET:getUser and POST:clearCache.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "46189975"
+	},
+	"item": [
+		{
+			"name": "get user",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/users/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"users",
+						"1"
+					]
+				},
+				"description": "Initially, retrieving the user data may take approximately 2 seconds. Once fetched, the data will be cached to ensure subsequent retrievals occur within 10 milliseconds."
+			},
+			"response": []
+		},
+		{
+			"name": "clear cache",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/users/cache/clear",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"users",
+						"cache",
+						"clear"
+					]
+				},
+				"description": "clear cache"
+			},
+			"response": []
+		}
+	]
+}

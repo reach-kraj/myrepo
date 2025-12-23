@@ -1,0 +1,14 @@
+package com.example.saga;
+
+import com.example.saga.coordinator.SagaCoordinator;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class SagaPatternExample {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SagaPatternExample.class, args);
+	}
+
+}

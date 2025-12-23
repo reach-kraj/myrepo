@@ -9,7 +9,7 @@ import org.springframework.data.redis.listener.adapter.MessageListenerAdapter;
 
 @Configuration
 public class SubConfig {
-	String channelName = "REDIS-CHANNEL";
+	String channelName = "REDIS-CHANNELs";
 
 	@Bean
 	public MessageListenerAdapter messageListenerAdapter() {

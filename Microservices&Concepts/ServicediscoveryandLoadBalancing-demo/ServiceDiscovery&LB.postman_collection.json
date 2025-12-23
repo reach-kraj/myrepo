@@ -1,0 +1,19 @@
+{
+	"info": {
+		"_postman_id": "33126183-1403-4933-b188-7974796b3690",
+		"name": "ServiceDiscovery&LB",
+		"description": "Java-project/\n\n├── eureka-server/\n\n│   ├── src/\n\n│   ├── pom.xml\n\n│   └── application.properties / application.yml\n\n│\n\n├── demo-service/  (your product service)\n\n│   ├── src/\n\n│   ├── pom.xml\n\n│   └── application.properties\n\n│\n\n├── order-service/\n\n│   ├── src/\n\n│   ├── pom.xml\n\n│   └── application.properties\n\nExplanation of each folder:\n\n| Folder | Purpose |\n| eureka-server | This is your service registry. All other services register themselves here. |\n| demo-service | This is your product service, running on 8081, 8082, etc. |\n| order-service | This is your client service, which calls demo-service via Eureka discovery. |\n\n## **Commands to run each service**\n\nNavigate into each folder and run:\n\n### **✅ 1 Run Eureka server**\n\ncd D:\\\\spring-project\\\\Java-project\\\\eureka-server\n\n**mvn spring-boot:run**\n\nOpens on http://localhost:8761\n\n### ✅ 2 Run two instances of demo-service\n\n**cd D:\\\\spring-project\\\\Java-project\\\\demo-service**\n\nIn two separate terminals:\n\nTerminal 1\n\nmvn spring-boot:run -Dspring-boot.run.arguments=\"--PORT=8081\"\n\nTerminal 2\n\nmvn spring-boot:run -Dspring-boot.run.arguments=\"--PORT=8082\"\n\n> _✅ Both will show up in Eureka as DEMO-SERVICE (2)._ \n  \n\n  \n✅ 3 Run order-service\n\nbash\n\nCopyEdit\n\ncd D:\\\\spring-project\\\\Java-project\\\\order-service\n\nmvn spring-boot:run\n\n✅ Starts on [http://localhost:8080](http://localhost:8080/)\n\n🔥 Now test the full flow\n\nGo to Postman or your browser:\n\nGET http://localhost:8080/order\n\n Every time you call this:\n\norder-service asks Eureka: \"Give me a DEMO-SERVICE\".  \nEureka returns 8081 or 8082.  \nLoadBalancer alternates them.\n\nSo you’ll see:\n\nOrder placed for -> Product data served from port: 8081\n\nOrder placed for -> Product data served from port: 8082",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "46189975"
+	},
+	"item": [
+		{
+			"name": "ServiceDiscovery&LB",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}

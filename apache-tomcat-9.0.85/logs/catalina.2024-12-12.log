@@ -1,0 +1,106 @@
+12-Dec-2024 15:50:35.722 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.85
+12-Dec-2024 15:50:35.724 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 5 2024 08:28:07 UTC
+12-Dec-2024 15:50:35.724 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.85.0
+12-Dec-2024 15:50:35.724 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+12-Dec-2024 15:50:35.724 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            15.1.1
+12-Dec-2024 15:50:35.724 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+12-Dec-2024 15:50:35.724 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/homebrew/Cellar/openjdk@21/21.0.4/libexec/openjdk.jdk/Contents/Home
+12-Dec-2024 15:50:35.725 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.4
+12-Dec-2024 15:50:35.725 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Homebrew
+12-Dec-2024 15:50:35.725 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/kraj-mac/work/myrepo/apache-tomcat-9.0.85
+12-Dec-2024 15:50:35.725 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/kraj-mac/work/myrepo/apache-tomcat-9.0.85
+12-Dec-2024 15:50:35.733 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+12-Dec-2024 15:50:35.734 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+12-Dec-2024 15:50:35.734 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+12-Dec-2024 15:50:35.734 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+12-Dec-2024 15:50:35.734 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+12-Dec-2024 15:50:35.734 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/kraj-mac/work/myrepo/apache-tomcat-9.0.85/conf/logging.properties
+12-Dec-2024 15:50:35.734 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+12-Dec-2024 15:50:35.734 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+12-Dec-2024 15:50:35.734 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+12-Dec-2024 15:50:35.734 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+12-Dec-2024 15:50:35.734 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+12-Dec-2024 15:50:35.734 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/kraj-mac/work/myrepo/apache-tomcat-9.0.85
+12-Dec-2024 15:50:35.734 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/kraj-mac/work/myrepo/apache-tomcat-9.0.85
+12-Dec-2024 15:50:35.734 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/kraj-mac/work/myrepo/apache-tomcat-9.0.85/temp
+12-Dec-2024 15:50:35.741 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/kraj-mac/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+12-Dec-2024 15:50:35.938 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+12-Dec-2024 15:50:35.958 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [351] milliseconds
+12-Dec-2024 15:50:35.978 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+12-Dec-2024 15:50:35.978 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.85]
+12-Dec-2024 15:50:35.982 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/kraj-mac/work/myrepo/apache-tomcat-9.0.85/webapps/docs]
+12-Dec-2024 15:50:36.126 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/kraj-mac/work/myrepo/apache-tomcat-9.0.85/webapps/docs] has finished in [144] ms
+12-Dec-2024 15:50:36.126 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/kraj-mac/work/myrepo/apache-tomcat-9.0.85/webapps/manager]
+12-Dec-2024 15:50:36.144 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/kraj-mac/work/myrepo/apache-tomcat-9.0.85/webapps/manager] has finished in [18] ms
+12-Dec-2024 15:50:36.144 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/kraj-mac/work/myrepo/apache-tomcat-9.0.85/webapps/examples]
+12-Dec-2024 15:50:36.261 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/kraj-mac/work/myrepo/apache-tomcat-9.0.85/webapps/examples] has finished in [117] ms
+12-Dec-2024 15:50:36.261 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/kraj-mac/work/myrepo/apache-tomcat-9.0.85/webapps/ROOT]
+12-Dec-2024 15:50:36.268 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/kraj-mac/work/myrepo/apache-tomcat-9.0.85/webapps/ROOT] has finished in [7] ms
+12-Dec-2024 15:50:36.269 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/kraj-mac/work/myrepo/apache-tomcat-9.0.85/webapps/host-manager]
+12-Dec-2024 15:50:36.280 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/kraj-mac/work/myrepo/apache-tomcat-9.0.85/webapps/host-manager] has finished in [12] ms
+12-Dec-2024 15:50:36.281 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+12-Dec-2024 15:50:36.288 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [329] milliseconds
+12-Dec-2024 15:51:46.333 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/kraj-mac/work/myrepo/apache-tomcat-9.0.85/webapps/bookpro.war]
+12-Dec-2024 15:51:46.865 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Dec-2024 15:51:46.876 INFO [Catalina-utility-2] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+12-Dec-2024 15:51:46.963 INFO [Catalina-utility-2] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext initialized in 87 ms
+12-Dec-2024 15:51:46.986 INFO [Catalina-utility-2] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'SpringDispatcher'
+12-Dec-2024 15:51:47.232 INFO [Catalina-utility-2] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 246 ms
+12-Dec-2024 15:51:47.233 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/kraj-mac/work/myrepo/apache-tomcat-9.0.85/webapps/bookpro.war] has finished in [900] ms
+12-Dec-2024 15:52:04.316 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+12-Dec-2024 15:52:04.331 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+12-Dec-2024 15:52:04.373 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+12-Dec-2024 15:52:04.383 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+12-Dec-2024 15:52:11.561 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.85
+12-Dec-2024 15:52:11.562 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 5 2024 08:28:07 UTC
+12-Dec-2024 15:52:11.562 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.85.0
+12-Dec-2024 15:52:11.562 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+12-Dec-2024 15:52:11.563 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            15.1.1
+12-Dec-2024 15:52:11.563 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+12-Dec-2024 15:52:11.563 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/homebrew/Cellar/openjdk@21/21.0.4/libexec/openjdk.jdk/Contents/Home
+12-Dec-2024 15:52:11.563 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.4
+12-Dec-2024 15:52:11.563 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Homebrew
+12-Dec-2024 15:52:11.563 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/kraj-mac/work/myrepo/apache-tomcat-9.0.85
+12-Dec-2024 15:52:11.563 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/kraj-mac/work/myrepo/apache-tomcat-9.0.85
+12-Dec-2024 15:52:11.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+12-Dec-2024 15:52:11.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+12-Dec-2024 15:52:11.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+12-Dec-2024 15:52:11.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+12-Dec-2024 15:52:11.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+12-Dec-2024 15:52:11.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/kraj-mac/work/myrepo/apache-tomcat-9.0.85/conf/logging.properties
+12-Dec-2024 15:52:11.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+12-Dec-2024 15:52:11.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+12-Dec-2024 15:52:11.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+12-Dec-2024 15:52:11.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+12-Dec-2024 15:52:11.569 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+12-Dec-2024 15:52:11.569 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/kraj-mac/work/myrepo/apache-tomcat-9.0.85
+12-Dec-2024 15:52:11.569 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/kraj-mac/work/myrepo/apache-tomcat-9.0.85
+12-Dec-2024 15:52:11.569 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/kraj-mac/work/myrepo/apache-tomcat-9.0.85/temp
+12-Dec-2024 15:52:11.574 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/kraj-mac/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+12-Dec-2024 15:52:11.756 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+12-Dec-2024 15:52:11.772 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [302] milliseconds
+12-Dec-2024 15:52:11.788 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+12-Dec-2024 15:52:11.789 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.85]
+12-Dec-2024 15:52:11.796 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/kraj-mac/work/myrepo/apache-tomcat-9.0.85/webapps/bookpro.war]
+12-Dec-2024 15:52:12.382 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Dec-2024 15:52:12.392 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+12-Dec-2024 15:52:12.485 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext initialized in 93 ms
+12-Dec-2024 15:52:12.513 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'SpringDispatcher'
+12-Dec-2024 15:52:12.766 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 253 ms
+12-Dec-2024 15:52:12.771 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/kraj-mac/work/myrepo/apache-tomcat-9.0.85/webapps/bookpro.war] has finished in [975] ms
+12-Dec-2024 15:52:12.771 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/kraj-mac/work/myrepo/apache-tomcat-9.0.85/webapps/docs]
+12-Dec-2024 15:52:12.782 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/kraj-mac/work/myrepo/apache-tomcat-9.0.85/webapps/docs] has finished in [11] ms
+12-Dec-2024 15:52:12.782 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/kraj-mac/work/myrepo/apache-tomcat-9.0.85/webapps/manager]
+12-Dec-2024 15:52:12.799 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/kraj-mac/work/myrepo/apache-tomcat-9.0.85/webapps/manager] has finished in [17] ms
+12-Dec-2024 15:52:12.799 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/kraj-mac/work/myrepo/apache-tomcat-9.0.85/webapps/examples]
+12-Dec-2024 15:52:12.873 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/kraj-mac/work/myrepo/apache-tomcat-9.0.85/webapps/examples] has finished in [74] ms
+12-Dec-2024 15:52:12.874 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/kraj-mac/work/myrepo/apache-tomcat-9.0.85/webapps/ROOT]
+12-Dec-2024 15:52:12.880 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/kraj-mac/work/myrepo/apache-tomcat-9.0.85/webapps/ROOT] has finished in [6] ms
+12-Dec-2024 15:52:12.880 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/kraj-mac/work/myrepo/apache-tomcat-9.0.85/webapps/host-manager]
+12-Dec-2024 15:52:12.893 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/kraj-mac/work/myrepo/apache-tomcat-9.0.85/webapps/host-manager] has finished in [13] ms
+12-Dec-2024 15:52:12.895 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+12-Dec-2024 15:52:12.900 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1127] milliseconds
+12-Dec-2024 15:55:29.583 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+12-Dec-2024 15:55:29.591 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+12-Dec-2024 15:55:29.634 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+12-Dec-2024 15:55:29.641 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
